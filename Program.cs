@@ -401,9 +401,9 @@ namespace Text_Based_RPG
                                         itemMouse = 1;
                                         TypeLine("The game taught you how to sneak attack. You will now do a sneak attack when engaging enemies.");
                                     } else if (answer == "baking") {
-                                        TypeLine("The Old Elf gives you a yar of home-made cookies.");
+                                        TypeLine("The Old Elf gives you a jar of home-made cookies.");
                                         Console.ForegroundColor = ConsoleColor.DarkMagenta;
-                                        TypeLine("You gain item 'Cookie Yar'");
+                                        TypeLine("You gain item 'Cookie Jar'");
                                         Console.ForegroundColor = ConsoleColor.White;
                                         itemCookie = 1;
                                         TypeLine("They are perfect to eat as a midnight snack. You will eat a cookie before you go to sleep.");
@@ -1444,7 +1444,7 @@ namespace Text_Based_RPG
                             TypeLine("Step on one of these stones to choose which one to fight.");
                             if (engageLeopard == 0) {TypeLine("Left: Giant Leopard - 200 Health, 40 Attack (2-6 = You attack. 7-12 = Enemy attack.)");}
                             if (engageDragon == 0) {TypeLine("Middle: Fiery Dragon - 500 Health, 120 Attack (2-10 = You attack. 11-12 = Enemy attack.)");}
-                            if (engageGiant == 0) {TypeLine("Right: Armored Giant - 1500 Health, 30 Attack (2-8 = You attack. 9-12 = Enemy attack.)");}
+                            if (engageGiant == 0) {TypeLine("Right: Armored Giant - 2000 Health, 30 Attack (2-8 = You attack. 9-12 = Enemy attack.)");}
                             TypeLine("If you are able to defeat all 3 creatures, come here again and claim your reward.)");
                             TypeLine("What do you do? left/middle/right/escape");
                         } else if (engageLeopard == 2 || engageDragon == 2 || engageGiant == 2) {
